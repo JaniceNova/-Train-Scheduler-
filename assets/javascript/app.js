@@ -9,6 +9,6 @@ $("#Submit").on("click", function () {
     console.log(mins);
     console.log(time);
 
-    $(".train-view").append("<tr><td>" + train + "</td><td>" + destination + "</td><td>" + mins + "</td><td>" + time + "</td><td>" + "blank" + "</td></tr>")
+    $(".train-view").append("<tr class='center'><td>" + train + "</td><td>" + destination + "</td><td>" + mins + "</td><td>" + time + "</td><td>" + "blank" + "</td></tr>")
 });
 

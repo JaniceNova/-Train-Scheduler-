@@ -35,3 +35,11 @@ html {
     background-color: rgb(59, 59, 145);
     border: rgb(59, 59, 145);
 }
+.center {
+    text-align: center;
+  
+}
+
+.train-view {
+    width: 100%;
+}
