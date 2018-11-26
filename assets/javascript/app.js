@@ -51,3 +51,13 @@ database.ref().on("child_added", function (snapshot) {
 
 });
 
+$(document).on("click", ".deletebutton", function () {
+    event.preventDefault();
+    console.log("hi")
+    
+});
+$(document).on("click", ".updatebutton", function () {
+    event.preventDefault();
+    console.log("hi")
+    
+});
