@@ -3,11 +3,9 @@
 
 <head>
     <title>Title</title>
-    <!-- Required meta tags -->
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -23,7 +21,7 @@
             <div class="card-header greyBG tablestyle">
                 <h5>Current Train Schedule</h5>
             </div>
-            <table id="employee-view blueborder">
+            <table class="train-view blueborder">
 
             </table>
         </div>
@@ -36,26 +34,26 @@
             <div class="card-body blueborder">
                 <div class="form-group">
                     <label for="search-term">Train Name</label>
-                    <input type="search" class="form-control" id="employee-input" aria-describedby="employeeName"
+                    <input type="search" class="form-control" id="train-input" aria-describedby="train"
                         placeholder="Hogwarts Express">
 
                 </div>
 
                 <div class="form-group mt-3">
                     <label for="start-year">Destination</label>
-                    <input type="search" class="form-control" id="role-input" aria-describedby="role" placeholder="Hogsmeade Station">
+                    <input type="search" class="form-control" id="destination-input" aria-describedby="destination" placeholder="Hogsmeade Station">
 
                 </div>
 
                 <div class="form-group">
                     <label for="end-year">First Train Time (HH:mm - military time)</label>
-                    <input type="search" class="form-control" id="start-input" aria-describedby="startDate" placeholder="11:00">
+                    <input type="search" class="form-control" id="time-input" aria-describedby="time" placeholder="11:00">
 
                 </div>
 
                 <div class="form-group">
                     <label for="end-year">Frequency (min)</label>
-                    <input type="search" class="form-control" id="rate-input" aria-describedby="monthlyRate"
+                    <input type="search" class="form-control" id="mins-input" aria-describedby="mins"
                         placeholder="10">
 
                 </div>
