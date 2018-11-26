@@ -47,7 +47,7 @@ database.ref().on("child_added", function (snapshot) {
   console.log(snapshot.val().time)
   
 
-    $(".train-view").append("<tr class='center'><td class='trains'>" + snapshot.val().train + "</td><td class='destination'>" + snapshot.val().destination+ "</td><td class='mins'>" + snapshot.val().mins + "</td><td class='time'>" + snapshot.val().time + "</td><td>" + "blank" + "</td></tr>")
+    $(".train-view").append("<tr class='center'><td class='trains'>" + snapshot.val().train + "</td><td class='destination'>" + snapshot.val().destination+ "</td><td class='mins'>" + snapshot.val().mins + "</td><td class='time'>" + snapshot.val().time + "</td><td>" + "blank" + "</td><td ><button class='updatebutton'>Update</button></td><td ><button class='deletebutton'>Delete</button></td></tr>")
 
 });
 
