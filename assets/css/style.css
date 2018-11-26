@@ -1,0 +1,37 @@
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.trainstyle {
+    background-color: rgb(114, 76, 76);
+    color: whitesmoke;
+ 
+}
+
+.titlesize {
+    font-size: 60px;
+}
+
+.subtitlesize {
+    font-size: 25px;
+}
+
+.tablestyle{
+    background-color: rgb(59, 59, 145);
+    color: whitesmoke;
+  
+}
+
+.blueborder {
+  border: solid rgb(59, 59, 145);
+
+}
+
+.bluesumbit {
+    background-color: rgb(59, 59, 145);
+    border: rgb(59, 59, 145);
+}
