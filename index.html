@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron text-center blackBG trainstyle">
+            <h1 class="titlesize"><i class="far fa-newspaper mr-1"></i>Anytime is Train Time</h1>
+            <h2 class="subtitlesize">Choo Choo. Chee Chee.</h2>
+        </div>
+        <div class="card">
+            <div class="card-header greyBG tablestyle">
+                <h5>Current Train Schedule</h5>
+            </div>
+            <table id="employee-view blueborder">
+
+            </table>
+        </div>
+
+        <div class="card mt-4" id="add-employee">
+            <div class="card-header greyBG tablestyle">
+                <h5><i class="fas fa-table"></i>Add Train</h5>
+            </div>
+
+            <div class="card-body blueborder">
+                <div class="form-group">
+                    <label for="search-term">Train Name</label>
+                    <input type="search" class="form-control" id="employee-input" aria-describedby="employeeName"
+                        placeholder="Hogwarts Express">
+
+                </div>
+
+                <div class="form-group mt-3">
+                    <label for="start-year">Destination</label>
+                    <input type="search" class="form-control" id="role-input" aria-describedby="role" placeholder="Hogsmeade Station">
+
+                </div>
+
+                <div class="form-group">
+                    <label for="end-year">First Train Time (HH:mm - military time)</label>
+                    <input type="search" class="form-control" id="start-input" aria-describedby="startDate" placeholder="11:00">
+
+                </div>
+
+                <div class="form-group">
+                    <label for="end-year">Frequency (min)</label>
+                    <input type="search" class="form-control" id="rate-input" aria-describedby="monthlyRate"
+                        placeholder="10">
+
+                </div>
+                <div class="row">
+                    <div class="col-md-12 float-right">
+                        <button type="submit" class="btn btn-primary float-right bluesumbit" id="Submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+    
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+                crossorigin="anonymous"></script>
+                <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
+
