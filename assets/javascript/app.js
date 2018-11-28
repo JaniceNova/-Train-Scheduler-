@@ -77,3 +77,26 @@ $(document).on("click", ".deletebutton", function (snapshot) {
   
 //   }
 //   $(document).on('click', '.deletebutton', remove);
+
+
+// var randomDate = moment("02/23/1999", "MM/DD/YYYY");
+// var randomDateFormatted1 = randomDate.format("DD/MM/YYYY")
+// var randomDateFormatted2 = randomDate.format("MMM Do YY")
+// var randomDateFormatted3= randomDate.format("dddd, MMMM, Do YYYY, h:mm:ss A");
+// var randomDate2= moment("02/14/2001", "DD/MM/YYYY")
+// console.log(randomDateFormatted1);
+// console.log(randomDateFormatted3)
+// console.log(randomDateFormatted2)
+// console.log(moment().diff(randomDate, "years") + "years since" + randomDateFormatted1)
+// console.log(moment().diff(randomDate, "months") + "days since" + randomDateFormatted1)
+// console.log(moment("02/14/2001").diff(randomDate, "days") + "days since" + randomDateFormatted1)
+// // Using scripts from moment.js write code below to complete each of the following.
+// // Console.log to confirm the code changes we made worked.
+// console.log(moment().diff(randomDate, "days") + "days since" + randomDateFormatted1)
+// // 1 ...to convert the randomDate into three other date formats
+// // 2 ...to determine the time in years, months, days between today and the randomDate
+// // 3 ...to determine the number of days between the randomDate and 02/14/2001
+// // 4 ...to convert the randomDate to unix time (be sure to look up what unix time even is!!!)
+// console.log(moment().format("X"))
+// // 5 ...to determine what day of the week and what week of the year this randomDate falls on.
+// console.log(randomDate.format("dddd"))
